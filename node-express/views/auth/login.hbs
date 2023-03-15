@@ -28,6 +28,8 @@
 
                 <input type="hidden" name="_csrf" value="{{csrf}}">
 
+                <p><a href="/auth/reset">Forgot your password ?</a></p>
+
                 <button class="btn btn-primary" type="submit">Login</button>
             </form>
         </div>
@@ -38,7 +40,7 @@
             {{/if}}
 
             <h1>Register</h1>
-            <form action="/auth/register" method="post">
+            <form action="/auth/register" method="post" novalidate>
                 <div class="input-field">
                     <input id="r_email" name="email" type="email" class="validate" required>
                     <label for="r_email">Email</label>
