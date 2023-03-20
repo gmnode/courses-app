@@ -1,5 +1,7 @@
 # courses-app
 
+Database: MongoDB
+
 Here you can register and select courses you can delete them edit and add new ones
 
 for mail used SendGrid
